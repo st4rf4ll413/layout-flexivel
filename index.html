@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Riot Games - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-</body>
+    <body>
+        <main class="opacity">
+            <div class="login-container">
+                <div class="logo-container">
+                    <img src="assets/riot-logo.png" alt="RIOT GAMES" class="logo">
+                    <span class="sign-in">SIGN IN</span>
+                </div>
+                <div class="input-fields">
+                    <input type="email" name="email" id="email" placeholder="Email" required size="50" class="login">
+                    <input type="password" name="password" id="password" placeholder="Password" required size="50" class="login">
+                        <div class="input-bottom">
+                            <div class="checkbox">
+                                <input type="checkbox" name="remember_user" id="remember">
+                                <label for="remember">Remember Me</label>
+                            </div>
+                            <p>Forget Password?</p>
+                        </div>
+                </div>
+                <div class="buttons">
+
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
