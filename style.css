@@ -18,23 +18,28 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.33);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
+.free-space {
+    height: 100%;
+    width: 50%;
+}
 .login-container {
-    background-color: #18181888;
+    background-color: #18181870;
     border: 2px solid white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     width:500px;
     height:600px;
 }
 .logo-container {
     display: flex;
-    height: 30%;
+    height: 140px;
     gap: 60px;
     flex-direction: column;
     align-items: center;
@@ -43,9 +48,9 @@ body {
     width: 150px;
 }
 .text-signin {
-    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: 0;
     font-size: 2rem;
-    ;
 }
 .input-fields {
     display: flex;
@@ -64,4 +69,37 @@ body {
     font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+.btn {
+    width: 413px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: "inter", sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+    font-size: 1rem;
+}
+.btn-signin {
+    background-color: #121246;
+    border: 1px solid #47479c;
+    color: white;
+}
+.no-account {
+    color: #c4c4c4;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.signin-options-text {
+    color:#c4c4c4;
+    font-size: 0.8rem;
+    margin-top: 15px;
 }
