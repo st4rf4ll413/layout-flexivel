@@ -76,6 +76,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 0px;
+
 }
 .btn {
     width: 413px;
@@ -85,6 +86,7 @@ body {
     font-weight: 900;
     letter-spacing: 0.2px;
     font-size: 1rem;
+    cursor: pointer;
 }
 .btn-signin {
     background-color: #121246;
