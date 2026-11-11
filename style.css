@@ -75,13 +75,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 0px;
+    gap: 10px;
 
 }
 .btn {
     width: 413px;
     height: 60px;
     border-radius: 20px;
+    border: 1px solid black;
     font-family: "inter", sans-serif;
     font-weight: 900;
     letter-spacing: 0.2px;
@@ -95,6 +96,7 @@ body {
 }
 .no-account {
     color: #c4c4c4;
+    margin-top: -10px;
 }
 a {
     text-decoration: none;
@@ -103,5 +105,22 @@ a {
 .signin-options-text {
     color:#c4c4c4;
     font-size: 0.8rem;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+.signin-options {
+    width: 413px;
+    display: flex;
+    justify-content: space-around;
+}
+.google-signin {
+    width: 180px;
+    height: 48px;
+}
+.signin-logo {
+    width: 24px;
+}
+.xbox-signin {
+    width: 180px;
+    height: 48px;
+    background-color: #4CAE4F;
 }
